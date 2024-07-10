@@ -1,0 +1,5 @@
+num1: int = int(input("Insert number, please:"))
+if num1 % 7 == 0:
+    print("Seven-BOOM!!")
+else:
+    print("not seven boom")

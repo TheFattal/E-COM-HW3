@@ -1,0 +1,6 @@
+id_num: str = (input("What is your ID?"))
+first_name: str = (input("What is your first name?"))
+last_name: str = (input("What is your last name?"))
+height: float = float(input("What's your height?"))
+birth_year: int = int(input("What's your year of birth?"))
+print(f"#id: \033[1m{id_num}\033[0m name: \033[1m{first_name}\033[0m , \033[1m{last_name}\033[0m height: \033[1m{height}\033[0m year-of-birth: \033[1m{birth_year}\033[0m")

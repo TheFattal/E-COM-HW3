@@ -1,0 +1,13 @@
+grade1: int = int(input("What's your grade?"))
+if 0 < grade1 < 40:
+    print("Try harder next time...")
+elif 41 < grade1 < 60:
+    print("you're getting there, need some more work")
+elif 61 < grade1 < 80:
+    print("Pretty good")
+elif 81 < grade1 < 95:
+    print("Awesome!")
+elif 95 < grade1 < 100:
+    print("Excellent!!! You're a star!")
+else:
+    print("Illegal grade!")
